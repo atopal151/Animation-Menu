@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
+import 'menu_dashboard_widget.dart';
+
 void main() {
+
   runApp(const MyApp());
 }
 
@@ -18,20 +21,6 @@ class MyApp extends StatelessWidget {
       ),
       home: const NewAnimationMenu(),
     );
-  }
-}
-
-class NewAnimationMenu extends StatefulWidget {
-  const NewAnimationMenu({Key? key}) : super(key: key);
-
-  @override
-  State<NewAnimationMenu> createState() => _NewAnimationMenuState();
-}
-
-class _NewAnimationMenuState extends State<NewAnimationMenu> {
-  @override
-  Widget build(BuildContext context) {
-    return Container();
   }
 }
 
